@@ -1,0 +1,48 @@
+html {
+    font-size: 12px;
+    font-family: "Noto Serif Display", serif;
+
+    background-color: #f4f99a;
+}
+
+body {
+    width: 600px;
+    margin: 21px auto;
+    background-color: aliceblue;
+    padding: 0 20px 20px 20px;
+    border: 5px solid gray;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: blue;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin: 21px auto;
+    line-height: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.done {
+    color: seagreen;
+    text-decoration: line-through solid black 2px;
+}
